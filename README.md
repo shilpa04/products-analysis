@@ -3,6 +3,14 @@
 Run `ProductAnalysisApplication.java` for boot up the server. Application will start running on http://localhost:8080/
 
 
+## Database
+
+Open http://localhost:8080/products-analysis/h2-console on browser.
+JDBC URL - `jdbc:h2:mem:productAnalysis`
+userName - `sa`
+password - `pw`
+
+
 ## To Check Swagger Documentation
 
 Open http://localhost:8080/products-analysis/swagger-ui/index.html on browser.
